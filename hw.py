@@ -10,8 +10,6 @@ class Country_info:
     def __init__(self,file):
         self.file = file
         self.index = 0
-        self.name = 'name'
-        self.common = 'common'
 
     def __iter__(self):
         return self
